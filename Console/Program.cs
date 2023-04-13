@@ -84,9 +84,9 @@ namespace GithubActionsLab
         // Implement this method following a similar pattern as above
         public static double Power(string x, string y)
         {
-            double xd = double.Parse(x);
-            double yd = double.Parse(y);
-            return Math.Pow(xd, yd);
+            double x_d = double.Parse(x);
+            double y_d = double.Parse(y);
+            return Math.Pow(x_d, y_d);
         }
     }
 
